@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName EnterPassword
+AuthUserFile ./htpasswd
+Require user ssbbMember
+
+ErrorDocument 404 /error404.html
